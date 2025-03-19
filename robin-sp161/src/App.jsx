@@ -11,12 +11,19 @@ function App() {
   return (
     <div>
       <h1>Robin's World</h1>
-      {posts.map((post) => (
-        <div key={post.id}>
-          <h2 dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
-          <p dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+      {posts.length > 0 ? (
+        posts.map((post) => (
+          <div key={post.id}>
+            <h2 dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
+            <p dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+          </div>
+        ))
+      ) : (
+        <div>
+          <h2>Welcome to Robin's World</h2>
+          <p>Stay tuned for exciting posts coming soon!</p>
         </div>
-      ))}
+      )}
     </div>
   );
 }
