@@ -1,0 +1,19 @@
+{
+  "name": "react-sp161",
+  "version": "1.0.0",
+  "description": "React Frontend with WordPress Backend (Plesk)",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinChiam/react-sp161.git"
+  },
+  "author": "Robin Chiam Jin Qin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/RobinChiam/react-sp161/issues"
+  },
+  "homepage": "https://github.com/RobinChiam/react-sp161#readme"
+}
